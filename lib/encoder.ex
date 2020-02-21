@@ -69,7 +69,7 @@ defmodule Dialob.Encoder do
 
   defp prepare_struct(json) do
     Map.new(json, fn {key, value} ->
-      {String.to_existing_atom(key), value}
+      {String.to_atom(key), value}
     end)
   end
 end
