@@ -21,9 +21,9 @@ defmodule Dialob.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:tesla, ">= 1.2.1 and < 2.0.0"},
-      {:hackney, ">= 1.15.2 and < 2.0.0"},
-      {:jason, ">= 1.0.0 and < 2.0.0"}
+      {:tesla, "~> 1.2"},
+      {:hackney, "~> 1.15"},
+      {:jason, "~> 1.0"}
     ]
   end
 end
