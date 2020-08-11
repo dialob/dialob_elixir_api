@@ -11,8 +11,11 @@ defmodule Dialob.Form.Data do
       id: json_item["id"],
       items: items,
       label: json_item["label"],
+      description: json_item["description"],
       props: json_item["props"],
-      type: json_item["type"]
+      type: json_item["type"],
+      required: json_item["required"],
+      valueSetId: json_item["valueSetId"]
     }
   end
 

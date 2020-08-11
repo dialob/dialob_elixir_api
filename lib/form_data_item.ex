@@ -3,6 +3,9 @@ defmodule Dialob.Form.DataItem do
   defstruct id: nil,
             items: nil,
             label: nil,
+            description: nil,
             props: nil,
-            type: nil
+            type: nil,
+            required: "false",
+            valueSetId: nil
 end
